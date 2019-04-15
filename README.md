@@ -26,7 +26,13 @@ Pyeff is written in python and depends on the python - packages:
 
 and for debuging purpose on 
 
-- sympy. 
+- sympy 
+
+as well as 
+
+- matplotlib 
+
+for plotting purpose. 
 
 ## Citation 
 If you are using PyEFF for sientific publications please cite following paper
