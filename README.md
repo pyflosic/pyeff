@@ -1,3 +1,5 @@
+![GitHub Logo](/images/pyeff_logo.png)
+
 # pyeff
 Python based electron force field  
 Author: Sebastian Schwalbe   
