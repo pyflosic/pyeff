@@ -18,7 +18,7 @@ the main focus of this implementation is the optimimization of nuclei and electr
 The code is written in a way to be readable for anyone and not optimized for large scale production runs. 
 
 ##### Theoretical background
- - some EFF papers
+ - Su, J. T. and Goddard, W. A. III, 2007. Excited electron dynamics modeling of warm dense matter. Phys. Rev. Lett. 99:185003. 
 
 ## Installation 
 
