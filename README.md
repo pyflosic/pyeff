@@ -3,7 +3,8 @@
 # pyeff
 Python based electron force field  
 Author: Sebastian Schwalbe (SS)    
-Side-kick: Kai Trepte (KT)   
+Side-kick: Kai Trepte (KT)
+           Simon Liebing (SL)  
 Coding language: python2.7     
 
 ## Description 
