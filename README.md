@@ -1,7 +1,7 @@
 # pyeff
-Python based electronic force field
-Author: Sebastian Schwalbe 
-Coding language: python2.7 
+Python based electronic force field  
+Author: Sebastian Schwalbe   
+Coding language: python2.7   
 
 ## Installation 
 
