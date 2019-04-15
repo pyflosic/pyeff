@@ -1,0 +1,20 @@
+This example shows how to calculate ionziation potentials with pyeff. 
+
+(1) You need to run the H2 example 
+(2) Run this example: cmd: bash job.sh  
+(3) grep the final energy with, e.g grep 'Etot' pyeff.log 
+    and compare your results with: python ip.py 
+
+Note: We use the Delta-SCF method here: 
+
+IP = E(N) - E(N-1), 
+
+therefore we have to relax the orginal system (E(N), here H2) 
+and then use this geometry remove one electron, fix the nucleus positions 
+(fix_nuc = 'True') and then run the pyeff calculation for the E(N-1) 
+geometry. 
+
+In this example we run 1st a optimization run and then a single point calculation. 
+What do you observe when you are comparing the results? 
+
+Note: With the clean.sh skript you can "clean" your results (cmd: bash clean.sh).  
