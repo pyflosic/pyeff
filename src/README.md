@@ -23,5 +23,5 @@
 | file 	| description |  
 | ------------- |:-------------:|
 | pyeff_ewald_system_numba.py | try to speed up  pyeff_ewald_system.py with numba| 
-| pyeff_ewald_energy_force_numba.py | | try to speed up pyeff_ewald_energy_force.py  with numba | 
+| pyeff_ewald_energy_force_numba.py | try to speed up pyeff_ewald_energy_force.py  with numba | 
 
