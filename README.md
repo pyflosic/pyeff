@@ -39,5 +39,8 @@ as well as
 
 for plotting purpose. 
 
+## Examples 
+Serveral different examples with explanation can be found in the tests directory.  
+
 ## Citation 
 If you are using PyEFF for sientific publications please cite following paper
