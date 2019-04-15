@@ -2,3 +2,13 @@
 | file 	| description |  
 | ------------- |:-------------:|
 | pyeff_system.py | defines the mother class particle and the daugther class system | 
+| pyeff_energy_force.py | analytical definitions for energies and forces (EFF1) | 
+| pyeff_io.py | write cfg files | 
+| pyeff_calculator.py | ase pyeff calculator | 
+| pyeff_optimizer.py | ase pyeff optimizer | 
+| pyeff_sympy_functions.py | using sympy for checking derivatives | 
+| pyeff_wavefunction.py | plotting wavefunctions | 
+| nrlmol_io.py | convert NRLMOL input files to pyeff input files (cfg) | 
+| pyflosic_io.py | convert PyFLOSIC (xyz) files to pyeff input files (cfg) | 
+
+
