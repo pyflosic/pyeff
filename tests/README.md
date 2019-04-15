@@ -1,4 +1,4 @@
-examples 	| description   
+| examples 	| description |  
 
 B2H6		| B2H6 molecule, pyeff optimization 
 Be		Be atom, pyeff optimization  
