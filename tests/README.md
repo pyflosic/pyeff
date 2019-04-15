@@ -2,8 +2,8 @@
 | ------------- |:-------------:|
 |B2H6		| B2H6 molecule, pyeff optimization|
 |Be		|Be atom, pyeff optimization |
-BH3		BH3 molecule, pyeff optimization 
-C		C atom, NRLMOL (SYMBOL,FRMORB) to pyeff (FOD optimization) to NRLMOL 
+|BH3		|BH3 molecule, pyeff optimization| 
+|C		|C atom, NRLMOL (SYMBOL,FRMORB) to pyeff (FOD optimization) to NRLMOL| 
 		spin configuration test 
 		01	...	5 up electrons and 1 down electron 
 		02	...	4 up electrons and 2 down electrons   
