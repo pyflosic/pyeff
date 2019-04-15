@@ -1,0 +1,10 @@
+Run in your bash following command: 
+
+bash job.sh 
+
+and see what happens.
+
+Output handling: 
+
+be.py		...		calculate binding energy 
+plot.py		...		plot results  
