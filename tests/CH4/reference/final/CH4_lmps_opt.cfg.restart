@@ -1,0 +1,53 @@
+@params
+	taper_cutoff = 10000.000000
+	x_bound = -5000.000000 5000.000000
+	y_bound = -5000.000000 5000.000000
+	z_bound = -5000.000000 5000.000000
+	periodic = false
+	ewald_log_precision = -6.000000
+	ewald_re_cutoff = 3.540000
+	ewald_max_re = 4.500000
+	ewald_autoset = true
+	ewald_nuc_r = 1.000000e-10
+	min = conjugate_gradient
+	min_freeze = none
+	thermostat = none
+	start_temperature = 0.000000
+	end_temperature = 0.000000
+	nose_hoover_coupling = 1.000000
+	andersen_coupling = 0.100000
+	dt = 0.005000
+	adaptive_step_size = false
+	adaptive_energy = 0.000100
+	adaptive_num_tries = 5
+	print_every = 50
+	num_steps = 10000
+	calc = single_pt
+	output_position = all
+	output_velocity = all
+	output_energy_forces = end
+	output_restart = all
+	electron_mass = 1.000000
+	rand_seed = 10000
+	e_field = 0.000000 0.000000 0.000000
+	e_field_freq = 0.000000
+	e_field_packet_duration = 0.000000
+	size_limit = true
+	size_limit_stiffness = 1.000000
+@nuclei
+-0.000000 -0.000000 -0.000000 6.000000
+1.247210 1.247210 1.247210 1.000000
+-1.247210 -1.247210 1.247210 1.000000
+1.247200 -1.247200 -1.247210 1.000000
+-1.247200 1.247200 -1.247210 1.000000
+@electrons
+-0.979218 0.979217 -0.979218 -1 1.486180
+-0.979218 0.979217 -0.979218 1 1.486180
+-0.979218 -0.979218 0.979218 -1 1.486180
+-0.979218 -0.979218 0.979218 1 1.486180
+0.979218 -0.979218 -0.979218 -1 1.486180
+0.979218 -0.979218 -0.979218 1 1.486180
+-0.000000 -0.000000 -0.000001 -1 0.329128
+0.979218 0.979218 0.979218 -1 1.486180
+0.000000 0.000000 0.000000 1 0.329128
+0.979218 0.979218 0.979218 1 1.486180
