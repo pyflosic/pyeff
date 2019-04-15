@@ -1,0 +1,71 @@
+[params]	taper_cutoff = 10000.000000
+[params]	x_bound = -5000.000000 5000.000000
+[params]	y_bound = -5000.000000 5000.000000
+[params]	z_bound = -5000.000000 5000.000000
+[params]	periodic = false
+[params]	ewald_log_precision = -6.000000
+[params]	ewald_re_cutoff = 3.540000
+[params]	ewald_max_re = 4.500000
+[params]	ewald_autoset = true
+[params]	ewald_nuc_r = 1.000000e-10
+[params]	min = conjugate_gradient
+[params]	min_freeze = none
+[params]	thermostat = none
+[params]	start_temperature = 0.000000
+[params]	end_temperature = 0.000000
+[params]	nose_hoover_coupling = 1.000000
+[params]	andersen_coupling = 0.100000
+[params]	dt = 0.005000
+[params]	adaptive_step_size = false
+[params]	adaptive_energy = 0.000100
+[params]	adaptive_num_tries = 5
+[params]	print_every = 50
+[params]	num_steps = 10000
+[params]	calc = minimize
+[params]	output_position = all
+[params]	output_velocity = all
+[params]	output_energy_forces = none
+[params]	output_restart = all
+[params]	electron_mass = 1.000000
+[params]	rand_seed = 10000
+[params]	e_field = 0.000000 0.000000 0.000000
+[params]	e_field_freq = 0.000000
+[params]	e_field_packet_duration = 0.000000
+[params]	size_limit = true
+[params]	size_limit_stiffness = 1.000000
+[num_nuclei]	2
+[num_electrons]	4
+[nuc_header]	index	Z	label
+[nuc]	1	3.000000	Li
+[nuc]	2	1.000000	H
+[elec_header]	index	spin
+[elec]	1	1
+[elec]	2	-1
+[elec]	3	1
+[elec]	4	-1
+[Minimize_type]	Conjugate gradient.
+[Minimize_iter_header]	# iters	# func evals	f	grad2
+[Minimize_iter]	0	1	-6.593243e+00	2.820053e-04
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-0.036595	0.000000	0.000000
+[position_nuc]	2	3.152663	0.000000	0.000000
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-0.046221	0.000000	0.000000	0.707140
+[position_elec]	2	-0.046221	0.000000	0.000000	0.707140
+[position_elec]	3	2.838187	0.000000	0.000000	2.361375
+[position_elec]	4	2.838187	0.000000	0.000000	2.361375
+[Minimize_result] Converged.
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-0.040444	0.000000	0.000000
+[position_nuc]	2	3.150663	0.000000	0.000000
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-0.050096	0.000000	0.000000	0.707178
+[position_elec]	2	-0.050096	0.000000	0.000000	0.707178
+[position_elec]	3	2.844986	0.000000	0.000000	2.340660
+[position_elec]	4	2.844986	0.000000	0.000000	2.340660
+[total_dipole]	6.508061
+[total_energy]	-6.593373
+[pressure_rigid] 5.616815e-05
+[pressure_flexible] -3.348815e-05
+[cpu_time_elapsed]	0.001476
+[total_time_elapsed]	0.000000
