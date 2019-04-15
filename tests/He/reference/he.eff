@@ -1,0 +1,62 @@
+[params]	taper_cutoff = 10000.000000
+[params]	x_bound = -5000.000000 5000.000000
+[params]	y_bound = -5000.000000 5000.000000
+[params]	z_bound = -5000.000000 5000.000000
+[params]	periodic = false
+[params]	ewald_log_precision = -6.000000
+[params]	ewald_re_cutoff = 3.540000
+[params]	ewald_max_re = 4.500000
+[params]	ewald_autoset = true
+[params]	ewald_nuc_r = 1.000000e-10
+[params]	min = conjugate_gradient
+[params]	min_freeze = none
+[params]	thermostat = none
+[params]	start_temperature = 0.000000
+[params]	end_temperature = 0.000000
+[params]	nose_hoover_coupling = 1.000000
+[params]	andersen_coupling = 0.100000
+[params]	dt = 0.005000
+[params]	adaptive_step_size = false
+[params]	adaptive_energy = 0.000100
+[params]	adaptive_num_tries = 5
+[params]	print_every = 50
+[params]	num_steps = 10000
+[params]	calc = minimize
+[params]	output_position = all
+[params]	output_velocity = all
+[params]	output_energy_forces = none
+[params]	output_restart = all
+[params]	electron_mass = 1.000000
+[params]	rand_seed = 10000
+[params]	e_field = 0.000000 0.000000 0.000000
+[params]	e_field_freq = 0.000000
+[params]	e_field_packet_duration = 0.000000
+[params]	size_limit = true
+[params]	size_limit_stiffness = 1.000000
+[num_nuclei]	1
+[num_electrons]	2
+[nuc_header]	index	Z	label
+[nuc]	1	2.000000	He
+[elec_header]	index	spin
+[elec]	1	1
+[elec]	2	-1
+[Minimize_type]	Conjugate gradient.
+[Minimize_iter_header]	# iters	# func evals	f	grad2
+[Minimize_iter]	0	1	-2.300987e+00	5.121895e-11
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	0.000000	0.000000	0.000000
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	0.000000	0.000000	0.000000	1.141833
+[position_elec]	2	0.000000	0.000000	0.000000	1.141833
+[Minimize_result] Converged.
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	0.000000	0.000000	0.000000
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	0.000000	0.000000	0.000000	1.141835
+[position_elec]	2	0.000000	0.000000	0.000000	1.141835
+[total_dipole]	0.000000
+[total_energy]	-2.300987
+[pressure_rigid] 0.000000e+00
+[pressure_flexible] 9.813482e-06
+[cpu_time_elapsed]	0.000438
+[total_time_elapsed]	0.000000
