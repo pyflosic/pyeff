@@ -1,0 +1,15 @@
+This example shows how to use pyeff for optimization of Fermi-Orbital-Descriptors. 
+
+(1) Convert SYMBOL and FRMORB to pyeff input (nrlmol.cfg file)
+(2) Run a pyeff optimization of the electrons (fixed nucleus, pyeff option: fix_nuc = 'True') 
+(3) Write the pyeff optimized electron positions as new FRMORB file (FRMORB.pyeff) 
+
+Run in your bash following command: 
+
+bash job.sh 
+
+and see what happens.
+
+You can watch the calculated trajectory (xyz-file format, called pyeff_movie.xyz) 
+with a crystall structure viewer you prefer (e.g ase-gui, xcrysden, jmol, etc.). 
+  
