@@ -1,0 +1,27 @@
+Calculate different spin configurations for the C atom: 
+
+01	...		5 up electrons and 1 down electron 
+02 	...		4 up electrons and 2 down electrons
+
+FLO-SIC LDA DFT delivers 
+
+C atom (5,1) -> E_tot = -37.794779 Ha 
+C atom (4,2) -> E_tot = -37.956763 Ha 
+
+Pyeff (eff1) delivers
+
+C atom (5,1) -> E_tot = -31.107893 Ha  
+C atom (4,2) -> E_tot = -31.387321 Ha 
+
+
+Both methods deliver the C atom (4,2) to be energetical favored. 
+You can check the CCCBDD database for experimental reference values. 
+
+You can compare your values again this reference values e.g.
+
+grep 'Etot' 01/pyeff.log | tail -1
+
+and 
+
+grep 'Etot' 02/pyeff.log | tail -1
+ 
