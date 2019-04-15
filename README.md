@@ -20,6 +20,7 @@ The code is written in a way to be readable for anyone and not optimized for lar
 ##### Theoretical background
  - Su, J. T. and Goddard, W. A. III, 2007. Excited electron dynamics modeling of warm dense matter. Phys. 
    Rev. Lett. 99:185003. 
+ - Su, J. T.,An electron force field for simulating large scaleexcited electron dynamics, California Institute of Technology, 2007 
 
 ## Installation 
 
