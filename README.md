@@ -1,4 +1,4 @@
-![GitHub Logo](/images/pyeff_logo_github.svg)
+![GitHub Logo](/images/pyeff_logo_github.png)
 
 # pyeff
 Python based electron force field  
