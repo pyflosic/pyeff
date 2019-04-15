@@ -15,4 +15,5 @@
 | file 	| description |  
 | ------------- |:-------------:|
 | pyeff_ewald_system.py | similar to pyeff_system.py new mother class ewald_charge and new daugther class ewald_system | 
+| pyeff_ewald_energy_force.py | similar to pyeff_energy_force.py but defining energy terms needed for pbcs | 
 
