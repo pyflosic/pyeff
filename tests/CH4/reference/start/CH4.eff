@@ -1,0 +1,94 @@
+[params]	taper_cutoff = 10000.000000
+[params]	x_bound = -5000.000000 5000.000000
+[params]	y_bound = -5000.000000 5000.000000
+[params]	z_bound = -5000.000000 5000.000000
+[params]	periodic = false
+[params]	ewald_log_precision = -6.000000
+[params]	ewald_re_cutoff = 3.540000
+[params]	ewald_max_re = 4.500000
+[params]	ewald_autoset = true
+[params]	ewald_nuc_r = 1.000000e-10
+[params]	min = conjugate_gradient
+[params]	min_freeze = none
+[params]	thermostat = none
+[params]	start_temperature = 0.000000
+[params]	end_temperature = 0.000000
+[params]	nose_hoover_coupling = 1.000000
+[params]	andersen_coupling = 0.100000
+[params]	dt = 0.005000
+[params]	adaptive_step_size = false
+[params]	adaptive_energy = 0.000100
+[params]	adaptive_num_tries = 5
+[params]	print_every = 50
+[params]	num_steps = 10000
+[params]	calc = single_pt
+[params]	output_position = all
+[params]	output_velocity = all
+[params]	output_energy_forces = end
+[params]	output_restart = all
+[params]	electron_mass = 1.000000
+[params]	rand_seed = 10000
+[params]	e_field = 0.000000 0.000000 0.000000
+[params]	e_field_freq = 0.000000
+[params]	e_field_packet_duration = 0.000000
+[params]	size_limit = true
+[params]	size_limit_stiffness = 1.000000
+[num_nuclei]	5
+[num_electrons]	10
+[nuc_header]	index	Z	label
+[nuc]	1	6.000000	C
+[nuc]	2	1.000000	H
+[nuc]	3	1.000000	H
+[nuc]	4	1.000000	H
+[nuc]	5	1.000000	H
+[elec_header]	index	spin
+[elec]	1	-1
+[elec]	2	1
+[elec]	3	-1
+[elec]	4	1
+[elec]	5	-1
+[elec]	6	1
+[elec]	7	-1
+[elec]	8	1
+[elec]	9	-1
+[elec]	10	1
+[energy_force_nuc_header]	#	E	fx	fy	fz
+[energy_force_nuc]	1	-26.070061	0.000000	0.000000	-0.000000
+[energy_force_nuc]	2	-0.971399	0.593024	0.593024	0.593024
+[energy_force_nuc]	3	-0.971399	-0.593024	-0.593024	0.593024
+[energy_force_nuc]	4	-0.971399	0.593024	-0.593024	-0.593024
+[energy_force_nuc]	5	-0.971399	-0.593024	0.593024	-0.593024
+[energy_force_elec_header]	#	E	fx	fy	fz	fr
+[energy_force_elec]	1	-1.271362	0.000000	0.000000	0.000000	-12.345601
+[energy_force_elec]	2	-1.271362	0.000000	0.000000	0.000000	-12.345601
+[energy_force_elec]	3	0.648039	-0.536939	-0.536939	-0.536939	1.862765
+[energy_force_elec]	4	0.648039	-0.536939	-0.536939	-0.536939	1.862765
+[energy_force_elec]	5	0.648039	0.536939	0.536939	-0.536939	1.862765
+[energy_force_elec]	6	0.648039	0.536939	0.536939	-0.536939	1.862765
+[energy_force_elec]	7	0.648039	-0.536939	0.536939	0.536939	1.862765
+[energy_force_elec]	8	0.648039	-0.536939	0.536939	0.536939	1.862765
+[energy_force_elec]	9	0.648039	0.536939	-0.536939	0.536939	1.862765
+[energy_force_elec]	10	0.648039	0.536939	-0.536939	0.536939	1.862765
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	0.000000	0.000000	0.000000
+[position_nuc]	2	1.000000	1.000000	1.000000
+[position_nuc]	3	-1.000000	-1.000000	1.000000
+[position_nuc]	4	1.000000	-1.000000	-1.000000
+[position_nuc]	5	-1.000000	1.000000	-1.000000
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	0.000000	0.000000	0.000000	0.500000
+[position_elec]	2	0.000000	0.000000	0.000000	0.500000
+[position_elec]	3	1.000000	1.000000	1.000000	1.000000
+[position_elec]	4	1.000000	1.000000	1.000000	1.000000
+[position_elec]	5	-1.000000	-1.000000	1.000000	1.000000
+[position_elec]	6	-1.000000	-1.000000	1.000000	1.000000
+[position_elec]	7	1.000000	-1.000000	-1.000000	1.000000
+[position_elec]	8	1.000000	-1.000000	-1.000000	1.000000
+[position_elec]	9	-1.000000	1.000000	-1.000000	1.000000
+[position_elec]	10	-1.000000	1.000000	-1.000000	1.000000
+[total_dipole]	0.000000
+[total_energy]	-27.314065
+[pressure_rigid] -5.658894e+01
+[pressure_flexible] -3.151716e+01
+[cpu_time_elapsed]	0.000472
+[total_time_elapsed]	0.000000
