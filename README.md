@@ -1,5 +1,5 @@
 # pyeff
-Python based electronic force field  
+Python based electron force field  
 Author: Sebastian Schwalbe   
 Coding language: python2.7   
 
