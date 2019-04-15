@@ -13,8 +13,7 @@ Coding language: python2.7
 
 ## Description 
 
-PyEFF is a implementation of the electron force field. In contrast to the orginal implementation 
-the main focus of this implementation is the optimimization of nuclei and electron positions ("thermostatics"). 
+PyEFF is a implementation of the electron force field (currently in the EFF1 formulation). In contrast to the orginal implementation the main focus of this implementation is the optimimization of nuclei and electron positions ("thermostatics"). 
 The code is written in a way to be readable for anyone and not optimized for large scale production runs. 
 
 ##### Theoretical background
