@@ -1,9 +1,4 @@
-Date: 11th October 2017 
-# pyeff eff1
-- clean pyeff_calculator.py (may create a energy_force function for initialize and calculation or combine them) 
-- very important: design a fix nucleus (read nrlmol optimized nucleus and then only optimize classical electron positions?) 
-		  design a cfg2clusterfrmorb function for conversion of the eff structure input to nrlmol structure input 	
-- decrease io part in pyeff_optimizer.py (dont write_input(x) directly caculate from a x vector energy and forces) 
-- check rights of the structs/*cfg files and change them accordingly 
+# implement pbcs 
+- currently under investigation 
 # pyeff eff2,eff3,eff+ecp 
 - implement the other eff version and check atoms (N,O,F) like it is shown on the eff-code homepage 
