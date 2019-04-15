@@ -1,8 +1,8 @@
 | examples 	| description |  
 | ------------- |:-------------:|
 
-B2H6		| B2H6 molecule, pyeff optimization 
-Be		Be atom, pyeff optimization  
+|B2H6		| B2H6 molecule, pyeff optimization| 
+|Be		|Be atom, pyeff optimization  |
 BH3		BH3 molecule, pyeff optimization 
 C		C atom, NRLMOL (SYMBOL,FRMORB) to pyeff (FOD optimization) to NRLMOL 
 		spin configuration test 
