@@ -8,7 +8,7 @@
 | pyeff_optimizer.py | ase pyeff optimizer | 
 | pyeff_sympy_functions.py | using sympy for checking derivatives | 
 | pyeff_wavefunction.py | plotting wavefunctions | 
-| nrlmol_io.py | convert NRLMOL input files to pyeff input files (cfg) | 
+| nrlmol_io.py | convert NRLMOL input (SYMBOL, FRMORB) files to pyeff input files (cfg) | 
 | pyflosic_io.py | convert PyFLOSIC (xyz) files to pyeff input files (cfg) | 
 
 
