@@ -13,7 +13,7 @@
 #   limitations under the License.
 #
 from ase.io import read 
-from ase.atoms import atomic_numbers 
+from ase.atoms import Atoms 
 try: 
     from ase.atoms import atomic_numbers
 except:
