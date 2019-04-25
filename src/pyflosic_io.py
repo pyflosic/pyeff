@@ -13,7 +13,11 @@
 #   limitations under the License.
 #
 from ase.io import read 
-from ase.atoms import Atoms,atomic_numbers 
+from ase.atoms import atomic_numbers 
+try: 
+    from ase.atoms import atomic_numbers
+except:
+    from ase.data import atomic_numbers
 from ase.units import Bohr 
 import numpy as np
 def xyz_to_nuclei_fod(ase_atoms):
