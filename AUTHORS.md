@@ -13,5 +13,5 @@ email: trept1k@cmich.edu
 - intensive code testing  
 
 #### Simon Liebing, M.Sc.  
-- intial idea, licence stuff
+- initial idea, licence information
 
