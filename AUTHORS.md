@@ -1,6 +1,17 @@
-# Main developer: 	
-#### M. Sc. Sebastian Schwalbe 
-* TU Bergakademie Freiberg, Institute of Theoretical Physics, schwalbe@physik.tu-freiberg.de
+# main developer: 	
+Core routines, code structure and working examples.   
 
-Main tester:	 	Dr. Kai Trepte (Department of Physics, Central Michigan University)
-Others:			M. Sc. Simon Liebing (intial idea, licence stuff) 
+#### Sebastian Schwalbe, M. Sc. 
+email: theonov13@gmail.com 
+- all main routines   
+
+# co-developers: 
+Additional features, code testing and improvements. 
+
+#### Kai Trepte, PhD  
+email: trept1k@cmich.edu  
+- intensive code testing  
+
+#### Simon Liebing, M.Sc.  
+- intial idea, licence stuff
+
